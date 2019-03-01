@@ -1,0 +1,56 @@
+{
+  "name": "Electrasight",
+  "description": "An open-source frontend for the Electrasight API. The Electrasight API provides you with a convenient, powerful and simple way to query and broadcast data on the Electra network and build your own services with it.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jenova7",
+    "email": "support@electraproject.org"
+  },
+  "repository": "git://github.com/Jenova7/Electrasight.git",
+  "contributors": [
+   {
+      "name": "Jenova7",
+      "email": "support@electraproject.org"
+    },
+   {
+      "name": "FlappyDEV",
+      "email": "dev@goflap.io"
+    },
+   {
+      "name": "pembo210",
+      "email": "pembo210@gmail.com"
+   }
+  ],
+  "bugs": {
+    "url": "https://github.com/Jenova7/Electrasight/issues"
+  },
+  "homepage": "https://github.com/Jenova7/Electrasight",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "electra",
+    "bitcore",
+    "front-end"
+  ],
+  "scripts": {
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/Electrasight-bitcore-api"
+  },
+  "dependencies": {
+    "Electrasight-api": "git://github.com/Jenova7/Electrasight-api.git"
+  },
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-macreload": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-markdown": "~0.5.0",
+    "grunt-angular-gettext": "^0.2.15"
+  }
+}
